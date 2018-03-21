@@ -19,7 +19,7 @@ describe('Testing landing page', function() {
     chai.request(app)
     .get('/')
     .end(function(err,res) {
-      expect(res.text).to.equal('Welcome!');
+      expect(res.text.includes('Welcome!'));
     });
   });
 });
