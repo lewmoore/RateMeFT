@@ -4,8 +4,9 @@ html
     
     p What did you think of FT.com?
     
-    form(action='/success', method='POST')
+    form(action='/success', method='POST', required='')
       select#dropdown(name='dropdown', onchange='this.form.submit()')
+        option(value='0') Select a Rating
         option(value='1') 1 - Really hate it
         option(value='2') 2 - Hate it
         option(value='3') 3 - It's okay
