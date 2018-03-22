@@ -1,7 +1,7 @@
 # RateMeFT
 
 #### Brief:
-Build a website hosted on the cloud that stores a rating score for FT.com
+Build a website hosted on the cloud that stores a rating score for FT.com. My aim for this project is to deploy this to AWS, implement continuous deployment with Docker and create Cloudformation templates.
 
 #### Tools & Tech
 Tools and technology that I am using for this project include Javascript, Node, AWS (Elastic Beanstalk, Cloudformation & DynamoDB)
