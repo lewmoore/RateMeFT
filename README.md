@@ -1,5 +1,7 @@
 # RateMeFT
 
+Deployed application is at http://ratemeft-env.mfmi26kh72.eu-west-1.elasticbeanstalk.com/
+
 #### Brief:
 Build a website hosted on the cloud that stores a rating score for FT.com. My aim for this project is to deploy this to AWS, implement continuous deployment with Docker and create Cloudformation templates.
 
