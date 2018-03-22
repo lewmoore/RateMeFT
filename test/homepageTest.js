@@ -22,4 +22,12 @@ describe('Testing landing page', function() {
       expect(res.text.includes('Welcome!'));
     });
   });
+
+  it('should display rating text', function() {
+    chai.request(app)
+    .get('/')
+    .end(function(err, res) {
+      expect(res.text.includes('What did you think of FT.com?'));
+    });
+  });
 });

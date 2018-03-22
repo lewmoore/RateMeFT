@@ -1,3 +1,13 @@
 html 
   body
     p Welcome! 
+    
+    p What did you think of FT.com?
+    
+    form(action='/success', method='POST')
+      select#dropdown(name='dropdown', onchange='this.form.submit()')
+        option(value='1') 1 - Really hate it
+        option(value='2') 2 - Hate it
+        option(value='3') 3 - It's okay
+        option(value='4') 4 - Love it
+        option(value='5') 5 - Really love it
