@@ -15,4 +15,4 @@ Tools and technology that I am using for this project include Javascript, Node, 
 
 At this point I realised that I had forgotten to add a .gitignore file and add node_modules to it. This resulted in previous commits being over 100,000 additions. I realised this, added the .gitignore file and have learnt a valuable lesson!
 
-* Next step, add a database and save the value from the dropdown menu in this DB.
+* Save user selection and carry through to the view in order to test.
