@@ -19,7 +19,7 @@ describe('Testing landing page', function() {
     chai.request(app)
     .get('/')
     .end(function(err,res) {
-      expect(res.text.includes('Welcome!'));
+      expect(res.text).to.include('Welcome!');
     });
   });
 
@@ -27,7 +27,7 @@ describe('Testing landing page', function() {
     chai.request(app)
     .get('/')
     .end(function(err, res) {
-      expect(res.text.includes('What did you think of FT.com?'));
+      expect(res.text).to.include('What did you think of FT.com?');
     });
   });
 });

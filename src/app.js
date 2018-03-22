@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
  })
 
  app.post('/success', function(req, res){
-  console.log(req.body.dropdown)
+  this.rating = req.body.dropdown
    res.render("success")
  })
 
