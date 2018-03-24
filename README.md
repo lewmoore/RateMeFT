@@ -20,3 +20,4 @@ At this point I realised that I had forgotten to add a .gitignore file and add n
 * Save user selection and carry through to the view in order to test.
 * Re-deploy app to EB environment using EB CLI
 * Added and made remote connection to PostGres DB to EB app using Amazon RDS
+* Add Dockerfile and push image to Dockerhub
