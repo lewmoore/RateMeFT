@@ -26,6 +26,17 @@ describe('successfully submits request', function(){
     })
   })
 
+  it('Knows users selection', function(){
+    chai.request(app)
+    .post('/success')
+    .send({
+      "dropdown": "3"
+    })
+    .end(function(err, res){
+      chai.expect(this.rating).to.equal('3')
+    })
+  })
+
   it('Displays the rating the user chose', function(){
     chai.request(app)
     .post('/success')
