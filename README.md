@@ -21,4 +21,5 @@ At this point I realised that I had forgotten to add a .gitignore file and add n
 * Re-deploy app to EB environment using EB CLI
 * Added and made remote connection to PostGres DB to EB app using Amazon RDS
 * Add Dockerfile and push image to Dockerhub
-* Begin to add MongoDB database to application with Mongoose to store rating value in collection 
+* Begin to add MongoDB database to application with Mongoose to store rating value in collection
+* Add CircleCI for continuous integration and automated unit testing
