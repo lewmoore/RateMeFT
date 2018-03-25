@@ -15,7 +15,7 @@ var Value = mongoose.model('Value', testSchema);
 
 describe('Database Tests', function(){
   before(function (done) {
-    mongoose.connect('mongodb://localhost/testDatabase');
+    mongoose.connect('mongodb://localhost:27017/testDatabase');
     const db = mongoose.connection;
     db.on('error', console.error.bind(console, 'connection error'));
     db.once('open', function() {
@@ -28,7 +28,14 @@ describe('Database Tests', function(){
       var testValue = Value({
         rating: '4'
       });
-      testValue.save(done);
+      testValue.save();
+      done();
+    })
+  })
+
+  after(function(done){
+    mongoose.connection.db.dropDatabase(function(){
+      mongoose.connection.close(done)
     })
   })
 })
