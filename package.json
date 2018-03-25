@@ -11,8 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "pug": "^2.0.3",
-    "pg": "latest"
+    "mongoose": "^5.0.11",
+    "pg": "latest",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
     "chai": "^4.1.2",
