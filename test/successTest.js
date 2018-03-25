@@ -41,10 +41,10 @@ describe('successfully submits request', function(){
     chai.request(app)
     .post('/success')
     .send({
-      "dropdown": "4"
+      "dropdown": "3"
       })
     .end(function(err, res){
-      chai.expect(res.text).to.include('4')
+      chai.expect(res.text).to.include('3')
     })
   })
 })
