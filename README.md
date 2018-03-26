@@ -46,3 +46,19 @@ At this point I realised that I had forgotten to add a .gitignore file and add n
 * Add Origami header module to homepage & success page
 
 #### Reflection
+
+##### What went well
+I really enjoyed this exercise. I enjoyed integrating the application with AWS and using it to build a pipeline from pushing the code to Github, testing and deploying the code automatically if the build passes. I felt (mostly) comfortable developing the application with Javascript and using Node on the backend.
+
+I feel I learnt a lot about AWS, but at the same time also felt that I only scratched the surface. I enjoyed experimenting with new build tools and introductions to Docker and how it benefits projects.
+
+Overall, I really enjoyed this project and the learning experience of the possibilities of AWS and the benefits of automation in projects.
+
+#### Even better if
+I feel I struggled most at a few points within this exercise. Firstly, realising and rectifying my mistakes with the node_modules folder did set me back a small bit, but I also felt this was good practice for rectifying problems you've made and continuing with the task at hand.
+
+The database proved to be a challenge for me. Initially, I spun up a Postgres RDS and linked this to my Elastic Beanstalk application, however I wasn't able to hook this up to my application. So, I decided to try and create a local MongoDB database and connect this up. Again, this proved somewhat of a challenge but also a great learning opportunity for MongoDB as I'd never used this before!
+
+Given more time, I would have loved to explore Cloudformation, Ansible and Docker more and how I can incorporate these to a project. I feel that I opened many doors by simply looking at these technologies, so this is something that I am definitely going to continue to look at.
+
+Also, I would have liked to be able to connect my application to my AWS RDS instance rather than having a local DB. Again, this is something that I will look at.
