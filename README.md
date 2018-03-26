@@ -2,6 +2,8 @@
 
 Deployed application is at http://ratemeft-env.mfmi26kh72.eu-west-1.elasticbeanstalk.com/
 
+The introduction of a local MongoDB database seems to have affected the deployment and as such doesn't seem to be sending the POST request. I believe this is something to do with the Security Groups in my ElasticBeanstalk application. This is something that I am currently investigating.
+
 #### Brief:
 Build a website hosted on the cloud that stores a rating score for FT.com. My aim for this project is to deploy this to AWS, implement continuous deployment with Docker and create Cloudformation templates.
 
