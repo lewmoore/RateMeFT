@@ -24,3 +24,4 @@ At this point I realised that I had forgotten to add a .gitignore file and add n
 * Begin to add MongoDB database to application with Mongoose to store rating value in collection
 * Add CircleCI for continuous integration and automated unit testing
 * Extended pipeline with AWS CodePipeline for Continuous Deployment to AWS ElasticBeanstalk application
+* Add Origami header module to homepage
