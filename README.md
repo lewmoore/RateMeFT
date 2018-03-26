@@ -2,7 +2,7 @@
 
 Deployed application is at http://ratemeft-env.mfmi26kh72.eu-west-1.elasticbeanstalk.com/
 
-The introduction of a local MongoDB database seems to have affected the deployment and as such doesn't seem to be sending the POST request to the success page. However this does work in localhost. I believe this is something to do with the Security Groups in my ElasticBeanstalk application and is something that I am currently investigating.
+The introduction of a local MongoDB database seems to have affected the deployment and as such doesn't seem to be sending the POST request to the success page. However this does work in localhost with the Mongo shell open. This is something I am investigating.
 
 #### Brief:
 Build a website hosted on the cloud that stores a rating score for FT.com. Provide a diagram of your site architecture showing key components that illustrate your approach.
