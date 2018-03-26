@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha",
-    "start": "mongod --dbpath /data/db --fork --logpath data && node src/app.js"
+    "start": "node src/app.js",
+    "poststart": "mongod --dbpath /data/db --fork --logpath data"
   },
   "author": "",
   "license": "ISC",
