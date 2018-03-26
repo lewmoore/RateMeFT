@@ -6,7 +6,16 @@ Deployed application is at http://ratemeft-env.mfmi26kh72.eu-west-1.elasticbeans
 Build a website hosted on the cloud that stores a rating score for FT.com. My aim for this project is to deploy this to AWS, implement continuous deployment with Docker and create Cloudformation templates.
 
 #### Tools & Tech
-Tools and technology that I am using for this project include Javascript, Node, AWS (Elastic Beanstalk, Cloudformation & DynamoDB)
+I have done this exercise in Javascript, MongoDB and Node deployed to AWS with CircleCI, CodePipeline and Elastic Beanstalk.
+
+#### Versions
+Due to the nature of this task and the majority of technologies being new to me, I broke this project down into multiple versions. Those versions were as follows:
+
+MVP - Basic Node application hosted on AWS
+Version 1 - Dropdown rating feature added to homepage
+Version 2 - Storage of rating in database
+Version 3 - Continuous Integration and Testing of code using build tool
+Version 4 - Continuous Deployment of application to AWS Elastic Beanstalk environment
 
 #### Process
 * First, initiate a Node application with Express that renders a single homepage
