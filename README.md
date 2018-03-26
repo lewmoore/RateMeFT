@@ -21,6 +21,8 @@ To run this application locally:
 Please note you must have MongoDB installed to run this. To do this:
 * Run `brew update` and `brew install mongodb`
 
+In order for the app to run, you must have the MongoDB shell running in the background, this is opened with `mongod`
+
 * Clone this repo and run `cd RateMeFT`
 * Open the app in your favourite text editor and run `npm install` to install dependencies
 * Run `npm start` and the application will be on localhost:8081
