@@ -4,7 +4,6 @@ var app = require('../src/app');
 var mongoose = require('mongoose')
 var Schema = mongoose.Schema
 var expect = chai.expect;
-
 chai.use(chaiHttp);
 
 var testSchema = new Schema({
@@ -26,7 +25,6 @@ describe('Database Tests', function(){
     })
   })
 })
-
 
 describe('Testing landing page', function() {
   it('shouldnt error', function() {

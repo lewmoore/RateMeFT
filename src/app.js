@@ -21,7 +21,6 @@ app.get('/', function(req, res) {
 
  app.post('/success', function(req, res){
   this.rating = req.body.dropdown
-  console.log(req.body)
   var myRating = new Rating(req.body);
     myRating.save()
     .then(item => {
