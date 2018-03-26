@@ -11,11 +11,11 @@ I have done this exercise in Javascript, MongoDB and Node deployed to AWS with C
 #### Versions
 Due to the nature of this task and the majority of technologies being new to me, I broke this project down into multiple versions. Those versions were as follows:
 
-MVP - Basic Node application hosted on AWS
-Version 1 - Dropdown rating feature added to homepage
-Version 2 - Storage of rating in database
-Version 3 - Continuous Integration and Testing of code using build tool
-Version 4 - Continuous Deployment of application to AWS Elastic Beanstalk environment
+* MVP - Basic Node application hosted on AWS
+* Version 1 - Dropdown rating feature added to homepage
+* Version 2 - Storage of rating in database
+* Version 3 - Continuous Integration and Testing of code using build tool
+* Version 4 - Continuous Deployment of application to AWS Elastic Beanstalk environment
 
 #### Process
 * First, initiate a Node application with Express that renders a single homepage
