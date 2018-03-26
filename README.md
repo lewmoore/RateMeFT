@@ -5,6 +5,16 @@ Deployed application is at http://ratemeft-env.mfmi26kh72.eu-west-1.elasticbeans
 #### Brief:
 Build a website hosted on the cloud that stores a rating score for FT.com. My aim for this project is to deploy this to AWS, implement continuous deployment with Docker and create Cloudformation templates.
 
+#### Installation Instructions
+To run this application locally:
+
+Please note you must have MongoDB installed to run this. To do this:
+* Run `brew update` and `brew install mongodb`
+
+* Clone this repo and run `cd RateMeFT`
+* Open the app in your favourite text editor and run `npm install` to install dependencies
+* Run `npm start` and the application will be on localhost:8081
+
 #### Tools & Tech
 I have done this exercise in Javascript, MongoDB and Node deployed to AWS with CircleCI, CodePipeline and Elastic Beanstalk.
 
@@ -34,3 +44,5 @@ At this point I realised that I had forgotten to add a .gitignore file and add n
 * Add CircleCI for continuous integration and automated unit testing
 * Extended pipeline with AWS CodePipeline for Continuous Deployment to AWS ElasticBeanstalk application
 * Add Origami header module to homepage & success page
+
+#### Reflection
