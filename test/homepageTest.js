@@ -26,7 +26,7 @@ describe('Database Tests', function(){
   })
 })
 
-describe('Testing landing page', function() {
+describe('Landing page', function() {
   it('shouldnt error', function() {
     chai.request(app)
     .get('/')

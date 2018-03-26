@@ -12,16 +12,16 @@ describe('Success page', function() {
       expect(res.text).to.include('Thanks for your feedback!')
     })
   })
-})
 
-describe('successfully submits request', function(){
-  it('submits post request to success page', function(){
+describe('Post request to /success', function(){
+  it('successfully submits the request', function(){
     chai.request(app)
     .post('/success')
     .end(function(err, res) {
       chai.expect(res.status).to.equal(200);
     })
   })
+})
 
   it('Knows users selection', function(){
     chai.request(app)
